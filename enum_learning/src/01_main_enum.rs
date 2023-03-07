@@ -3,20 +3,8 @@
     · 枚举的变体都位于标识符的命名空间下，使用两个冒号::进行分隔
 */
 enum IpAddrKind {
-    // 还可以直接将数据附加到枚举的变体中
-    V4(String),
-    V6(String)
-
-    /*
-        · 优点：
-            - 不需要额外使用 struct
-            - 每个变体可以拥有不同的类型以及关联的数据量
-        · 例如：
-            enum IpAddr {
-                V4(u8, u8, u8, u8),
-                V6(String)
-            }
-    */
+    V4,
+    V6
 }
 
 struct IpAddr {
