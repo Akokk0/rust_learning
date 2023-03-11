@@ -1,0 +1,1 @@
+/Users/akokko/RustProject/generics_trait_lifecycle/target/debug/generics_trait_lifecycle: /Users/akokko/RustProject/generics_trait_lifecycle/src/lib.rs /Users/akokko/RustProject/generics_trait_lifecycle/src/main.rs
