@@ -1,16 +1,15 @@
-fn largest<T: PartialOrd + Clone>(list: &[T]) -> &T {
-    let mut largest = &list[0];
-    // 模式匹配
-    for item in list {
-        if item > largest { // std::cmp::PartiaOrd
-            largest = item;
-        }
-    }
-    largest
+fn main() {
+    let string1 = String::from("abcd");
+    let string2 = "xyz";
+
+    let result = longest(string1.as_str(), string2);
+    println!("The longest string is {}", result);
 }
 
-fn main() {
-    let str_list = vec![String::from("hello"), String::from("world")];
-    let result = largest(&str_list);
-    println!("The largest word is {}", result);
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+    if x.len() > y.len() {
+        x
+    } else {
+        y
+    }
 }
