@@ -6,7 +6,6 @@ fn main() {
 }
 
 fn longest<'a>(x: &'a str, y: &str) -> &'a str {
-    let result = String::from("abc");
-    // 产生了悬垂引用
-    result.as_str()
+    // 如果返回值和y无关可以不用指定y的生命周期
+    x
 }
