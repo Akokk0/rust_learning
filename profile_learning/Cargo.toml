@@ -1,5 +1,8 @@
 [package]
 name = "profile_learning"
+description = "a rust tutorial"
+license = "MIT"
+authors = ["Akokko"]
 version = "0.1.0"
 edition = "2021"
 

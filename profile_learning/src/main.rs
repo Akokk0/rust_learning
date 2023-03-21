@@ -1,3 +1,11 @@
+/*use profile_learning::kinds::PrimaryColor;
+use profile_learning::utils::mix;*/
+
+use profile_learning::PrimaryColor;
+use profile_learning::mix;
+
 fn main() {
-    println!("Hello, world!");
+    let red = PrimaryColor::Red;
+    let yellow = PrimaryColor::Yellow;
+    mix(red, yellow);
 }

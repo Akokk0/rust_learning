@@ -23,31 +23,29 @@
 <a href="#23" id="23">23</a>
 <a href="#24" id="24">24</a>
 <a href="#25" id="25">25</a>
-<a href="#26" id="26">26</a>
-</pre><pre class="rust"><code><span class="doccomment">//! 常用章节
-//!
-//! # Panics
-//! 函数可能发生panic的场景
-//!
-//! # Errors
-//! 如果函数返回Result，描述可能的错误种类，以及可导致错误的条件
-//!
-//! # Safety
-//! 如果函数处于unsafe调用，就应该解释函数unsafe的原因，以及调用者确保的使用前提
-//!
+</pre><pre class="rust"><code><span class="kw">pub use </span>kinds::PrimaryColor;
+<span class="kw">pub use </span>kinds::SecondaryColor;
+<span class="kw">pub use </span>utils::mix;
 
-/// Adds one to the number given.
-///
-/// # Examples
-///
-/// ```
-/// let arg = 5;
-/// let answer = profile_learning::add_one(arg);
-///
-/// assert_eq!(6, answer);
-/// ```
-///
-</span><span class="kw">pub fn </span>add_one(x: i32) -&gt; i32 {
-    x + <span class="number">1
-</span>}</code></pre></div>
+<span class="kw">pub mod </span>kinds {
+    <span class="kw">pub enum </span>PrimaryColor {
+        Red,
+        Yellow,
+        Blue
+    }
+
+    <span class="kw">pub enum </span>SecondaryColor {
+        Orange,
+        Green,
+        Purple
+    }
+}
+
+<span class="kw">pub mod </span>utils {
+    <span class="kw">use </span><span class="kw">crate</span>::kinds::<span class="kw-2">*</span>;
+
+    <span class="kw">pub fn </span>mix(c1: PrimaryColor, c2: PrimaryColor) -&gt; SecondaryColor {
+        SecondaryColor::Green
+    }
+}</code></pre></div>
 </section></div></main><div id="rustdoc-vars" data-root-path="../../" data-static-root-path="../../static.files/" data-current-crate="profile_learning" data-themes="" data-resource-suffix="" data-rustdoc-version="1.67.1 (d5a82bbd2 2023-02-07) (built from a source tarball)" data-search-js="search-444266647c4dba98.js" data-settings-js="settings-bebeae96e00e4617.js" data-settings-css="settings-af96d9e2fc13e081.css" ></div></body></html>

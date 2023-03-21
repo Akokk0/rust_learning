@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":[["add_one","Adds one to the number given."]]};
+window.SIDEBAR_ITEMS = {"mod":[["kinds",""],["utils",""]]};
