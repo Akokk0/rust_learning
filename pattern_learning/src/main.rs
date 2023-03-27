@@ -1,12 +1,23 @@
 fn main() {
-    let x = Some(5);
-    let y = 10;
+    let mut setting_value = Some(5);
+    let new_setting_value = Some(10);
 
-    match x {
-        Some(50) => println!("Crazy thursday, v me 50"),
-        Some(y) => println!("Matched, y = {:?}", y),
-        _ => println!("Default case, x = {:?}", x)
+    match (setting_value, new_setting_value) {
+        (Some(_), Some(_)) => {
+            println!("Can't overwrite an existing customized value");
+        }
+        _ => {
+            setting_value = new_setting_value;
+        }
     }
 
-    println!("at the end: x = {:?}, y = {:?}", x, y);
+    println!("setting is {:?}", setting_value);
+
+    let numbers = (2, 4, 8, 16, 32);
+
+    match numbers {
+        (first, _, third, _, fifth) => {
+            println!("Some numbers: {}, {}, {}", first, third, fifth)
+        }
+    }
 }
