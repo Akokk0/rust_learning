@@ -1,0 +1,1 @@
+/Users/akokko/RustProject/attribute_macro_learning/target/debug/pancakes: /Users/akokko/RustProject/attribute_macro_learning/hello_macro/src/lib.rs /Users/akokko/RustProject/attribute_macro_learning/hello_macro_derive/src/lib.rs /Users/akokko/RustProject/attribute_macro_learning/pancakes/src/main.rs
