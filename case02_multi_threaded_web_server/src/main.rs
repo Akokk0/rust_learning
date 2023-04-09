@@ -2,6 +2,7 @@ use std::{fs, thread};
 use std::io::{Read, Write};
 use std::net::{TcpListener, TcpStream};
 use std::time::Duration;
+use case02_multi_threaded_web_server::ThreadPool;
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
@@ -14,6 +15,8 @@ fn main() {
             handle_connection(stream);
         })
     }
+
+    println!("Shutting down.")
 }
 
 fn handle_connection(mut stream: TcpStream) {
