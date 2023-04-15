@@ -5,3 +5,5 @@
 http/src/lib.rs:
 http/src/httprequest.rs:
 http/src/httpresponse.rs:
+
+# env-dep:CARGO_MANIFEST_DIR=/Users/akokko/RustProject/case03_s1/http
