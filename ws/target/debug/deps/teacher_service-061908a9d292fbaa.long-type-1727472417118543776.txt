@@ -1,0 +1,1 @@
+Result<HttpServer<[closure@webservice/src/bin/teacher_service.rs:20:15: 20:22], App<actix_web::app_service::AppEntry>, actix_web::app_service::AppInit<actix_web::app_service::AppEntry, BoxBody>, BoxBody>, std::io::Error>
