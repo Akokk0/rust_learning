@@ -1,0 +1,5 @@
+/Users/akokko/RustProject/db/target/debug/deps/quick_error-39af2ce63a712673.rmeta: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quick-error-1.2.3/src/lib.rs
+
+/Users/akokko/RustProject/db/target/debug/deps/quick_error-39af2ce63a712673.d: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quick-error-1.2.3/src/lib.rs
+
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quick-error-1.2.3/src/lib.rs:

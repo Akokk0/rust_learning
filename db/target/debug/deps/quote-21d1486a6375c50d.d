@@ -1,0 +1,13 @@
+/Users/akokko/RustProject/db/target/debug/deps/quote-21d1486a6375c50d.rmeta: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ext.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/format.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ident_fragment.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/to_tokens.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/runtime.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/spanned.rs
+
+/Users/akokko/RustProject/db/target/debug/deps/libquote-21d1486a6375c50d.rlib: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ext.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/format.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ident_fragment.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/to_tokens.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/runtime.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/spanned.rs
+
+/Users/akokko/RustProject/db/target/debug/deps/quote-21d1486a6375c50d.d: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ext.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/format.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ident_fragment.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/to_tokens.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/runtime.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/spanned.rs
+
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/lib.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ext.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/format.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/ident_fragment.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/to_tokens.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/runtime.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.26/src/spanned.rs:
