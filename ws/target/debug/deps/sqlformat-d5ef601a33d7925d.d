@@ -1,0 +1,12 @@
+/Users/akokko/RustProject/ws/target/debug/deps/sqlformat-d5ef601a33d7925d.rmeta: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/formatter.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/indentation.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/inline_block.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/params.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/tokenizer.rs
+
+/Users/akokko/RustProject/ws/target/debug/deps/libsqlformat-d5ef601a33d7925d.rlib: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/formatter.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/indentation.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/inline_block.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/params.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/tokenizer.rs
+
+/Users/akokko/RustProject/ws/target/debug/deps/sqlformat-d5ef601a33d7925d.d: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/formatter.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/indentation.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/inline_block.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/params.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/tokenizer.rs
+
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/lib.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/formatter.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/indentation.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/inline_block.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/params.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.2.1/src/tokenizer.rs:

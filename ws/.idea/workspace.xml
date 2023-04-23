@@ -13,7 +13,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2c0cb4c-4433-4111-9eac-19bb33117b67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webservice/src/db_access.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webservice/src/errors.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/teacher_service" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/teacher_service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/teacher_service.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/teacher_service.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/src/bin/teacher_service.rs" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/src/bin/teacher_service.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/src/handlers.rs" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/src/handlers.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/src/models.rs" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/src/models.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/src/routers.rs" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/src/routers.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/src/state.rs" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/src/state.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,29 +58,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/akokko/RustProject/ws&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/akokko/RustProject/ws",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Cargo.Test hanlers::tests::get_one_course_success">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/webservice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Test handlers::tests">
     <configuration name="Run teacher_service" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package webservice --bin teacher_service" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test handlers::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package webservice --bin teacher_service handlers::tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test handlers::tests::post_course_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package webservice --bin teacher_service handlers::tests::post_course_test -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
@@ -118,6 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test handlers::tests" />
+        <item itemvalue="Cargo.Test handlers::tests::post_course_test" />
         <item itemvalue="Cargo.Test hanlers::tests::get_one_course_success" />
         <item itemvalue="Cargo.Test hanlers::tests::get_all_courses_success" />
         <item itemvalue="Cargo.Run teacher_service" />
@@ -141,22 +197,13 @@
       <workItem from="1681800047864" duration="991000" />
       <workItem from="1681888728711" duration="7057000" />
       <workItem from="1682055686224" duration="4375000" />
+      <workItem from="1682067762124" duration="1345000" />
+      <workItem from="1682138784355" duration="9819000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/webservice/src/handlers.rs</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
