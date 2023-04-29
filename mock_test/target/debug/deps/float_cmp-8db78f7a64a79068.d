@@ -1,0 +1,12 @@
+/Users/akokko/RustProject/mock_test/target/debug/deps/float_cmp-8db78f7a64a79068.rmeta: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/macros.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps_eq.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/eq.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ratio.rs
+
+/Users/akokko/RustProject/mock_test/target/debug/deps/libfloat_cmp-8db78f7a64a79068.rlib: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/macros.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps_eq.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/eq.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ratio.rs
+
+/Users/akokko/RustProject/mock_test/target/debug/deps/float_cmp-8db78f7a64a79068.d: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/macros.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps_eq.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/eq.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ratio.rs
+
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/lib.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/macros.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ulps_eq.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/eq.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/float-cmp-0.8.0/src/ratio.rs:

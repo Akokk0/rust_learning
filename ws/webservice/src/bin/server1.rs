@@ -6,7 +6,7 @@ pub fn general_routes(cfg: &mut web::ServiceConfig) {
     cfg.route("/health", web::get().to(health_check_handler));
 }
 
-// 配置 handler
+// 配置 handlers
 pub async fn health_check_handler() -> impl Responder {
     HttpResponse::Ok().json("Actix Web Server is running!")
 }

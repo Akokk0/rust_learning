@@ -1,7 +1,9 @@
-use actix_web::{error, http::StatusCode, HttpResponse, Result};
+use actix_web::{error, Error, http::StatusCode, HttpResponse, Result};
 use serde::Serialize;
 use sqlx::error::Error as SQLxError;
 use std::fmt;
+use std::fmt::Formatter;
+use actix_web::body::BoxBody;
 
 #[derive(Debug, Serialize)]
 pub enum MyError {
@@ -31,5 +33,38 @@ impl MyError {
                 msg.into()
             }
         }
+    }
+}
+
+impl error::ResponseError for MyError {
+    fn status_code(&self) -> StatusCode {
+        match self {
+            MyError::DBError(msg) | MyError::ActixError(msg) => StatusCode::INTERNAL_SERVER_ERROR,
+            MyError::NotFound(msg) => StatusCode::NOT_FOUND
+        }
+    }
+
+    fn error_response(&self) -> HttpResponse<BoxBody> {
+        HttpResponse::build(self.status_code()).json(MyErrorResponse {
+            error_message: self.error_response()
+        })
+    }
+}
+
+impl fmt::Display for MyError {
+    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
+        write!(f, "{}", self)
+    }
+}
+
+impl From<actix_web::error::Error> for MyError {
+    fn from(value: actix_web::error::Error) -> Self {
+        MyError::ActixError(value.to_string())
+    }
+}
+
+impl From<SQLxError> for MyError {
+    fn from(value: SQLxError) -> Self {
+        MyError::DBError(value.to_string())
     }
 }
