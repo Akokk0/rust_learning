@@ -20,6 +20,7 @@ pub struct Course {
     pub level: Option<String>
 }
 
+#[derive(Deserialize, Debug, Clone)]
 pub struct CreateCourse {
     pub teacher_id: i32,
     pub name: String,
@@ -68,7 +69,7 @@ impl TryFrom<web::Json<CreateCourse>> for CreateCourse {
 
 #[derive(Deserialize, Debug, Clone)]
 pub struct UpdateCourse {
-    pub name: String,
+    pub name: Option<String>,
     pub description: Option<String>,
     pub format: Option<String>,
     pub structure: Option<String>,
@@ -79,7 +80,7 @@ pub struct UpdateCourse {
 }
 
 impl From<web::Json<UpdateCourse>> for UpdateCourse {
-    fn from(value: Json<UpdateCourse>) -> Self {
+    fn from(course: Json<UpdateCourse>) -> Self {
         UpdateCourse {
             name: course.name.clone(),
             description: course.description.clone(),

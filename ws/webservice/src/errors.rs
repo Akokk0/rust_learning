@@ -1,4 +1,4 @@
-use actix_web::{error, Error, http::StatusCode, HttpResponse, Result};
+use actix_web::{error, http::StatusCode, HttpResponse};
 use serde::Serialize;
 use sqlx::error::Error as SQLxError;
 use std::fmt;
@@ -39,8 +39,8 @@ impl MyError {
 impl error::ResponseError for MyError {
     fn status_code(&self) -> StatusCode {
         match self {
-            MyError::DBError(msg) | MyError::ActixError(msg) => StatusCode::INTERNAL_SERVER_ERROR,
-            MyError::NotFound(msg) => StatusCode::NOT_FOUND
+            MyError::DBError(_msg) | MyError::ActixError(_msg) => StatusCode::INTERNAL_SERVER_ERROR,
+            MyError::NotFound(_msg) => StatusCode::NOT_FOUND
         }
     }
 
