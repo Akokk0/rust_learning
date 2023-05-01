@@ -9,7 +9,8 @@ use actix_web::body::BoxBody;
 pub enum MyError {
     DBError(String),
     ActixError(String),
-    NotFound(String)
+    NotFound(String),
+    InvalidInput(String)
 }
 
 #[derive(Debug, Serialize)]
@@ -32,6 +33,10 @@ impl MyError {
                 println!("Not found error occurred: {:?}", msg);
                 msg.into()
             }
+            MyError::InvalidInput(msg) => {
+                println!("Invalid parameters recevied: {:?}", msg);
+                msg.into()
+            }
         }
     }
 }
@@ -40,7 +45,8 @@ impl error::ResponseError for MyError {
     fn status_code(&self) -> StatusCode {
         match self {
             MyError::DBError(_msg) | MyError::ActixError(_msg) => StatusCode::INTERNAL_SERVER_ERROR,
-            MyError::NotFound(_msg) => StatusCode::NOT_FOUND
+            MyError::NotFound(_msg) => StatusCode::NOT_FOUND,
+            MyError::InvalidInput(msg) => StatusCode::BAD_REQUEST
         }
     }
 
