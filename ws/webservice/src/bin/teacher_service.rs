@@ -1,6 +1,7 @@
+use actix_cors::Cors;
 use std::io;
 use std::sync::Mutex;
-use actix_web::{App, HttpServer, web};
+use actix_web::{App, http, HttpServer, web};
 use routers::*;
 use state::AppState;
 use dotenv::dotenv;
@@ -35,11 +36,25 @@ async fn main() -> io::Result<()> {
         db: db_pool
     });
     let app = move || {
+        let cors = Cors::default()
+            .allowed_origin("http://localhost:8080/")
+            .allowed_origin_fn(|origin, _req_head| {
+                origin.as_bytes().starts_with(b"http://localhost")
+            })
+            .allowed_methods(vec!["GET", "POST", "DELETE"])
+            .allowed_headers(vec![
+                http::header::AUTHORIZATION,
+                http::header::ACCEPT,
+                http::header::CONTENT_TYPE,
+            ])
+            .max_age(3600);
+
         App::new()
             .app_data(shared_data.clone())
             .app_data(web::JsonConfig::default().error_handler(|_err, _req| {
                 MyError::InvalidInput("Please provide valid Json input".to_string()).into()
             }))
+            .wrap(cors)
             .configure(general_routes)
             .configure(course_routes)
             .configure(teacher_routes)
