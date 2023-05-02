@@ -1,0 +1,12 @@
+/Users/akokko/RustProject/ws/target/debug/deps/humansize-9a83345cc6dd6bcd.rmeta: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/options/mod.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/options/defaults.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/numeric_traits.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/scales.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/utils.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/allocating.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/formatters.rs
+
+/Users/akokko/RustProject/ws/target/debug/deps/humansize-9a83345cc6dd6bcd.d: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/options/mod.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/options/defaults.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/numeric_traits.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/scales.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/utils.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/allocating.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/formatters.rs
+
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/lib.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/options/mod.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/options/defaults.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/numeric_traits.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/scales.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/utils.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/allocating.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/humansize-2.1.3/src/formatters.rs:

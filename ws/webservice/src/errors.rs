@@ -46,7 +46,7 @@ impl error::ResponseError for MyError {
         match self {
             MyError::DBError(_msg) | MyError::ActixError(_msg) => StatusCode::INTERNAL_SERVER_ERROR,
             MyError::NotFound(_msg) => StatusCode::NOT_FOUND,
-            MyError::InvalidInput(msg) => StatusCode::BAD_REQUEST
+            MyError::InvalidInput(_msg) => StatusCode::BAD_REQUEST
         }
     }
 

@@ -1,7 +1,7 @@
 use actix_web::{HttpResponse, web};
 use crate::dbaccess::teacher::{delete_teacher_db, get_all_teachers_db, get_teacher_details_db, post_new_teacher_db, update_teacher_details_db};
 use crate::errors::MyError;
-use crate::models::teacher::{CreateTeacher, Teacher, UpdateTeacher};
+use crate::models::teacher::{CreateTeacher, UpdateTeacher};
 use crate::state::AppState;
 
 pub async fn get_all_teachers(

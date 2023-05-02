@@ -1,0 +1,11 @@
+/Users/akokko/RustProject/ws/target/debug/deps/parse_zoneinfo-9efabfc6c8a53889.rmeta: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs
+
+/Users/akokko/RustProject/ws/target/debug/deps/libparse_zoneinfo-9efabfc6c8a53889.rlib: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs
+
+/Users/akokko/RustProject/ws/target/debug/deps/parse_zoneinfo-9efabfc6c8a53889.d: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs
+
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs:

@@ -1,0 +1,16 @@
+/Users/akokko/RustProject/ws/target/debug/deps/bstr-fe2d338e443c210e.rmeta: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ascii.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/bstr.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/bstring.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/byteset/mod.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/byteset/scalar.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/escape_bytes.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ext_slice.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ext_vec.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/impls.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/io.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/utf8.rs
+
+/Users/akokko/RustProject/ws/target/debug/deps/bstr-fe2d338e443c210e.d: /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/lib.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ascii.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/bstr.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/bstring.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/byteset/mod.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/byteset/scalar.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/escape_bytes.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ext_slice.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ext_vec.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/impls.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/io.rs /Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/utf8.rs
+
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/lib.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ascii.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/bstr.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/bstring.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/byteset/mod.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/byteset/scalar.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/escape_bytes.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ext_slice.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/ext_vec.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/impls.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/io.rs:
+/Users/akokko/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-1.4.0/src/utf8.rs:

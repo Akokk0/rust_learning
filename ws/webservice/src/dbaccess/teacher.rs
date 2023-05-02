@@ -1,11 +1,16 @@
-use std::fmt::format;
 use sqlx::PgPool;
 use crate::errors::MyError;
 use crate::models::teacher::{CreateTeacher, Teacher, UpdateTeacher};
 
 pub async fn get_all_teachers_db(pool: &PgPool) -> Result<Vec<Teacher>, MyError> {
-    let rows = sqlx::query!(
+    /*let rows = sqlx::query!(
         "SELECT id, name, picture_url, profile FROM teacher"
+    )
+        .fetch_all(pool)
+        .await?;*/
+
+    let rows = sqlx::query!(
+        "SELECT id, name, picture_url, profile FROM teacher WHERE 1 = 1",
     )
         .fetch_all(pool)
         .await?;
@@ -15,6 +20,16 @@ pub async fn get_all_teachers_db(pool: &PgPool) -> Result<Vec<Teacher>, MyError>
     )
         .fetch_all(pool)
         .await?;*/
+
+    /*let teachers: Vec<Teacher> = rows
+        .iter()
+        .map(|row| Teacher {
+            id: row.id,
+            name: row.name.clone(),
+            picture_url: row.picture_url.clone().unwrap(),
+            profile: row.profile.clone().unwrap()
+        })
+        .collect();*/
 
     let teachers: Vec<Teacher> = rows
         .iter()
